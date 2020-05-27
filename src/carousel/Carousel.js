@@ -1335,7 +1335,7 @@ export default class Carousel extends Component {
             onResponderRelease: this._onTouchRelease,
             onStartShouldSetResponderCapture: this._onStartShouldSetResponderCapture,
             onTouchStart: this._onTouchStart,
-            onTouchEnd: this._onScrollEnd,
+            onTouchEnd: this._onTouchEnd,
             onLayout: this._onLayout,
             ...specificProps
         };
